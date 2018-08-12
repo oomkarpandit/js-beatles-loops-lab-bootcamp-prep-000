@@ -19,3 +19,11 @@ function johnLennonFacts(factsArray){
   console.log(factsArray)
   return factsArray
 }
+//function ilovebeatles
+function iLoveTheBeatles(n){
+const array=[]
+do{
+  array[i]='I love the Beatles!'
+  n++
+} while (n<15)
+}
