@@ -10,8 +10,7 @@ return array
 
 //second function
 function johnLennonFacts(factsArray){
-  var i=factsArray.length-1
-  console.log(factsArray[i] + "length" +factsArray.length)
+ 
   const shoutFact=[]
   var ii=0
   while (ii<factsArray.length){
