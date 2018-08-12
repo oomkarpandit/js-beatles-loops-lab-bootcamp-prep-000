@@ -14,9 +14,10 @@ function johnLennonFacts(factsArray){
   const shoutFact=[]
   var ii=0
   while (ii<factsArray.length){
-  shoutFact.push(`${factsArray[ii]}!!!`)
+ // shoutFact.push(`${factsArray[ii]}!!!`)
+  factsArray[ii]=`${factsArray[ii]}!!!`
   ii++
   }
-  console.log(shoutFact)
-  return shoutFact
+  //console.log(shoutFact)
+  return factsArray
 }
