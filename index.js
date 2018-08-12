@@ -18,6 +18,6 @@ function johnLennonFacts(factsArray){
   factsArray[ii]=`${factsArray[ii]}!!!`
   ii++
   }
-  //console.log(shoutFact)
+  console.log(factsArray)
   return factsArray
 }
