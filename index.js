@@ -10,8 +10,6 @@ return array
 
 //second function
 function johnLennonFacts(factsArray){
- 
-  const shoutFact=[]
   var ii=0
   while (ii<factsArray.length){
  // shoutFact.push(`${factsArray[ii]}!!!`)
